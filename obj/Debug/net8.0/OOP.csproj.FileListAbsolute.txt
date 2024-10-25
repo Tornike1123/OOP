@@ -26,3 +26,4 @@
 /Users/macbook/Desktop/OOP-Csharp/obj/Debug/net8.0/OOP.pdb
 /Users/macbook/Desktop/OOP-Csharp/obj/Debug/net8.0/OOP.genruntimeconfig.cache
 /Users/macbook/Desktop/OOP-Csharp/obj/Debug/net8.0/ref/OOP.dll
+/Users/macbook/Desktop/OOP/obj/Debug/net8.0/OOP.sourcelink.json

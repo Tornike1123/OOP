@@ -6,10 +6,11 @@
 //     public abstract class Vehicle
 //     {
 //         public abstract void StartEngine(); // აბსტრაქტული მეთოდი (განუსაზღვრელი)
+//         public abstract void Fly(); // აბსტრაქტული მეთოდი (განუსაზღვრელი)
 
 //         public void StopEngine() // უკვე განსაზღვრული მეთოდი ჩვეულებრივი ანუ(არააბსტრაქტული- ეს მაგალითისთვის)
 //         {
-//             Console.WriteLine("Engine stopped.");
+//             Console.WriteLine("Car Engine stopped.");
 //         }
 //     }
 
@@ -18,6 +19,10 @@
 //         public override void StartEngine() //override საშუალებას გვაძლევს, შევცვალოთ მშობელ კლასში განსაზღვრული ლოგიკა მემკვიდრე კლასის საჭიროებისამებრ.(abstract-კლასისთვის)
 //         {
 //             Console.WriteLine("Car engine started.");
+//         }
+//         public override void Fly() //override .(abstract-კლასისთვის)
+//         {
+//             Console.WriteLine("Car Cannot Fly.");
 //         }
 //     }
 
@@ -28,6 +33,7 @@
 //             Vehicle myCar = new Car();
 //             myCar.StartEngine();
 //             myCar.StopEngine();
+//             myCar.Fly();
 //             Console.ReadLine(); // შეაჩერებს პროგრამის დახურვას
 //         }
 //     }
